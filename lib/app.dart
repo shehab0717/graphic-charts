@@ -18,30 +18,30 @@ class MyApp extends StatelessWidget {
           child: SingleChildScrollView(
             child: Column(
               children: [
-                // Container(
-                //   padding:
-                //       const EdgeInsets.symmetric(vertical: 10, horizontal: 0),
-                //   height: 300,
-                //   width: double.infinity,
-                //   child: const HumidityDewChart(),
-                // ),
-                // Container(
-                //   padding:
-                //       const EdgeInsets.symmetric(horizontal: 0, vertical: 10),
-                //   height: 300,
-                //   width: double.infinity,
-                //   child: const ForecastChart(),
-                // ),
-                // SingleChildScrollView(
-                //   scrollDirection: Axis.horizontal,
-                //   child: Container(
-                //     padding:
-                //         const EdgeInsets.symmetric(horizontal: 0, vertical: 10),
-                //     width: 1200,
-                //     height: 200,
-                //     child: const HourlyForecastChart(),
-                //   ),
-                // ),
+                Container(
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 10, horizontal: 0),
+                  height: 300,
+                  width: double.infinity,
+                  child: const HumidityDewChart(),
+                ),
+                Container(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 0, vertical: 10),
+                  height: 300,
+                  width: double.infinity,
+                  child: const ForecastChart(),
+                ),
+                SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Container(
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 0, vertical: 10),
+                    width: 1200,
+                    height: 200,
+                    child: const HourlyForecastChart(),
+                  ),
+                ),
                 Container(
                   width: double.infinity,
                   height: 200,
